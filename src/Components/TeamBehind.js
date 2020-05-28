@@ -22,7 +22,7 @@ export default function TeamBehind({ title, id }) {
             AKASH S TONSE      - 1MS17IS012
           </p>
           <p>
-            BHARAT KUMAR      - 1MS17IS059
+            M BHARAT KUMAR      - 1MS17IS059
           </p>
          
         </div>
