@@ -103,3 +103,20 @@ a {
   padding-bottom: 40px;
   padding-left: 100px;
 }
+
+#linktoLinkedIn{
+  text-decoration: none;
+  size: 20px;
+ color: rgba(256,256,256,0.7);
+  ;
+}
+
+#linktoLinkedIn:hover{
+  color: rgb(256,256,256);
+}
+
+.section-content {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}

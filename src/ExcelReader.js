@@ -102,26 +102,7 @@ class ExcelReader extends Component {
             
             <input type='submit' className="form-control1" id ="file1" value="Process File" onClick={this.handleFile} />
               
-        
-        
 
-        {/* Guys there are five sections presently ... i dont think we'll need them all..
-            Fill the sections . replace 'dummyText' by the text u want to replace in subtitle and 
-             edit them in css file. the id of the respective section is present in the section
-             To edit the section in css file do : eg '#section {font : alsalskf}'  and stuff 
-             Also u can do put className='name' in section tag and edit in css by doing 
-             .name{font : 'alskdjf} .Also we dont need full screen for each section ..U can edit that
-            using 'height' property in css i think (figure that out )*  ..Also there is a dark option in 
-            section ..its not required ..u can edit it out to put any colour of your choice.
-            Also try to edit to edit the graph page if u can..its in Result.js file .
-            Try to edit and style the navbar also .. u can edit it in Navbar.js
-            
-
-            call me if u have any doubts ,, 
-            U can also refer to this site for styling :https://jecc.ac.in/kturesultanalysis/
-
-            also remember me to delete this comment before submitting.
-        */}
         <Section
           title="ABOUT"
           subtitle="We found that the teaching faculty of our institutions still perform most of the post-result analysis by hand due to the limitations and lack of computer software’s and tools available to them. This primarily leads to human errors and the analysis being really tedious, time consuming and it also limits the different analysis which could be done on the available data. So we came up with a  solution to this problem which is in the form of  a web application which does the work quickly without any errors This Web Application aims to eliminate these issues and allow the faculty to perform the analysis on their computer which not only saves time but also help them in dealing with large amounts of data. This application primarily aims to visualize data in the form of graphs to analyse and extract all the information from results and to check the accuracy of the test paper evaluation. Performing these tasks for large amounts of data is pretty time consuming. We aim to overcome these drawbacks with our application which may allow the faculty to relay more on software’s to perform their tasks. Therefore easing out the work load on them "

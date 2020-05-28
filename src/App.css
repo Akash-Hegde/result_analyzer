@@ -90,6 +90,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .button {
   background-color: #4CAF50;
@@ -180,7 +181,7 @@
 }
     
 .teamBehind {
-  background-color: #F05F40;
+  background-color: #333;
   color: white;
 }
 

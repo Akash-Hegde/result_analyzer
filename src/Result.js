@@ -317,6 +317,7 @@ class Result extends Component {
 							
 							let x = sem1Data[i];
 							let y = submarks1[j]
+							let k = subnames1[j]
 			
 							hml1[y]['Mean'] = hml1[y]['Mean'] + parseInt(x[y])
 
@@ -324,7 +325,7 @@ class Result extends Component {
 								hml1[y]['Highest'] = parseInt(x[y])
 							}
 
-							if(parseInt(x[y]) < hml1[y]['Lowest']) {
+							if(parseInt(x[y]) < hml1[y]['Lowest'] && x[k]!='NE' && x[k]!='W') {
 								hml1[y]['Lowest'] = parseInt(x[y])
 							}
 						}

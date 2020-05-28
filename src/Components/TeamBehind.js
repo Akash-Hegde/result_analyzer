@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles.css";
 
 export default function TeamBehind({ title, id }) {
     return (
@@ -7,18 +8,23 @@ export default function TeamBehind({ title, id }) {
          <center className="centb"> <h1>{title}</h1></center>
          <hr className="hr"></hr>
         <div id ="teambehind">
+          <br />
         <p>
-            ADITYA KUMARASWAMY [1MS17IS007]
+            PROJECT GUIDE : <a id = 'linktoLinkedIn' href="http://www.msrit.edu/department/faculty-detail.html?dept=ise&ID=7">Dr. Megha. P. Arakeri</a> 
+          </p>  <br />
+        <p>
+            ADITYA KUMARASWAMY - 1MS17IS007
           </p>
           <p>
-            AKASH K HEGDE      [1MS17IS011]
+            AKASH K HEGDE      - 1MS17IS011
           </p>
           <p>
-            AKASH S TONSE      [1MS17IS012]
+            AKASH S TONSE      - 1MS17IS012
           </p>
           <p>
-            BHARATH KUMAR      [1MS17IS0xx]
+            BHARATH KUMAR      - 1MS17IS059
           </p>
+         
         </div>
           
         </div>
