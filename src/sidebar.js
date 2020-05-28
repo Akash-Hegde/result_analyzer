@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { slide as Menu } from "react-burger-menu";
+import { bubble as Menu } from "react-burger-menu";
 
 class SideBar extends Component {
   constructor(props){
@@ -9,11 +9,11 @@ class SideBar extends Component {
   render(){
     return (
       // Pass on our props
-      <Menu pageWrapId={"page-wrap"} outerContainerId={"App1"}>
+      <Menu pageWrapId={"page-wrap"} outerContainerId={"App1"} width={ '260px' }>
         <ul id='sidenav'>
   
           <li>
-            <a className="menu-item" > VIEW BY SEMESTER </a>
+            
             <ul>
               <li>
                 <a className="menu-item" onClick={(evt) => this.props.func('sem1')}> SEM 1 </a>
@@ -42,23 +42,7 @@ class SideBar extends Component {
             </ul>
           </li>
         
-          <li>
-            <a className="menu-item" href="/burgers">Input usn</a>
-            
-              <li>
-                <input type='text'/>
-              </li>
-              
-          </li>
-        
-          {/* <li>
-            <a className="menu-item" href="/pizzas">Pizzas</a>
-          </li>
-          
-          <li>
-            <a className="menu-item" href="/desserts">Desserts </a>
-          </li>   */}
-        
+
         </ul>
       </Menu>
     );

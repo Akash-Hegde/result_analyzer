@@ -82,3 +82,24 @@ ul{
 a {
     text-decoration: none;
 }
+
+.resultHr {
+  width : 75%;
+  margin-top: 50px;
+  margin-left: 0px ;
+  margin-bottom: 50px;
+  box-shadow: 0 0 4px 1px rgba(56, 78, 81, 0.62);
+}
+
+.resultpgHeading{
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 46px;
+	line-height: 42px;
+	text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
