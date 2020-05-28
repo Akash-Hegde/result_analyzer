@@ -13,7 +13,7 @@ export default function TeamBehind({ title, id }) {
             PROJECT GUIDE : <a id = 'linktoLinkedIn' href="http://www.msrit.edu/department/faculty-detail.html?dept=ise&ID=7">Dr. Megha. P. Arakeri</a> 
           </p>  <br />
         <p>
-            ADITYA KUMARASWAMY - 1MS17IS007
+            ADITYA K - 1MS17IS007
           </p>
           <p>
             AKASH K HEGDE      - 1MS17IS011
@@ -22,7 +22,7 @@ export default function TeamBehind({ title, id }) {
             AKASH S TONSE      - 1MS17IS012
           </p>
           <p>
-            BHARATH KUMAR      - 1MS17IS059
+            BHARAT KUMAR      - 1MS17IS059
           </p>
          
         </div>
