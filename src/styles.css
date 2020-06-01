@@ -71,8 +71,9 @@
 }
 
 ul{
-    margin: none;
+    
     list-style: none;
+    border : none;
 }
 
 .menu-item {
@@ -86,6 +87,14 @@ a {
 .resultHr {
   width : 75%;
   margin-top: 50px;
+  margin-left: 0px ;
+  margin-bottom: 50px;
+  box-shadow: 0 0 4px 1px rgba(56, 78, 81, 0.62);
+}
+
+.resultHr1 {
+  width : 75%;
+  margin-top: 100px;
   margin-left: 0px ;
   margin-bottom: 50px;
   box-shadow: 0 0 4px 1px rgba(56, 78, 81, 0.62);

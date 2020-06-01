@@ -189,3 +189,11 @@
   color: rgba(256,256,256,0.7);
   font-size: 18px;
 }
+
+#litagspace{
+  margin:0 0 12px 0;  
+}
+
+ul{
+  
+  border: none; }
