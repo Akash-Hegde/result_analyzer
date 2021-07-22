@@ -22,7 +22,7 @@
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
     "sheetjs": "^2.0.0",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
